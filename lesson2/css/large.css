@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em) {
+    main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+    .lesson2-grid {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+       
+    }
+
+    header, footer {
+        border-radius: 10px; 
+    }  
+   
+
+}

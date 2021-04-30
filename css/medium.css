@@ -1,18 +1,9 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 32.5em) {
    
-    main {
-		
-        justify-content: center;
-	}
+    header, footer {
+        border-radius: 10px; 
+    }        
 
-    .lesson2-grid {
-       
-        display: grid;
-        grid-template-columns: 1fr 1fr;    
-    
-    }
-
-        
     header img{
         float: right; 
         border: 5px solid #f7eeed;
