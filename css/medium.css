@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {
+   
+    main {
+		
+        justify-content: center;
+	}
+
+    .lesson2-grid {
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    
+    }
+
+        
+    header img{
+        float: right; 
+        border: 5px solid #f7eeed;
+        box-shadow: 10px 10px 10px black;
+        background-color: white;
+    }
+}
