@@ -1,0 +1,146 @@
+body {
+    font-size: 16px; 
+    background-color: #f7eeed; 
+ }
+ 
+ ul, footer, h2, p, li {
+     font-family: 'Open Sans Condensed', sans-serif;
+    
+ }
+ 
+ h1 {
+     font-family: 'Francois One', sans-serif, cursive;
+     color: #f7eeed;
+ }
+
+ h1 {
+    font-family: 'Francois One', sans-serif, cursive;
+    color: #f7eeed;
+
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+
+  h2{
+     font-weight: bolder;
+     border-bottom: solid 0.8px  #9d8189;
+     color: #9d8189;
+  }
+ 
+ header, main, footer, nav {
+     max-width: 760px;
+     margin: 0 auto;
+     
+ }
+
+ footer {
+     border: 1px solid #9d8189;
+     padding: 1rem;
+     background-color: #9d8189;
+     text-align: center;
+     
+     
+ }
+
+ header { 
+    background-color:#f7eeed;
+    padding: 2em;
+    margin: 0em auto;
+    color: white;
+    
+    justify-content: space-between; 
+   }
+ 
+ main{
+     background-color: #f7eeed; 
+     padding: 1rem;
+     border-radius: 10px;
+ }
+ 
+ header img{
+     
+     width: 200px;
+     height: auto;    
+    
+ }
+
+ nav {     
+    background-color: #9d8189;
+    padding: 2em;
+    margin: 0em auto;
+    color: white;
+    border-radius: 10px;
+    justify-content: space-between; 
+}
+
+nav ul {     
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li  {    
+    background-color: gray;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 0.5em;
+    flex: 1 1 100%;
+}
+
+.siteName {
+    font-family: 'Francois One', sans-serif, cursive;
+     color: #6d6875;
+}
+ 
+.logo-box {
+    background-color: white;
+    border: 5px solid #2a9d8f;
+    box-shadow: 10px 10px 10px black;
+ }
+ .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #7dcd85;
+  }
+  .secondary {
+    background-color: #778472;
+  }
+  .accent1 {
+    background-color: #c2e1c2;
+  }
+  .accent2{
+    background-color: #bac7be;
+  }
+  .accent3{
+    background-color: #80ab82;
+  }
+  
+  p.colored {
+    background-color: var(--text-background-color);
+    color: var(--paragraph-color-on-color);
+  }
