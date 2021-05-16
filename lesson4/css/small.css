@@ -1,0 +1,183 @@
+
+.Hero-Image img {
+    width: 100%;
+    height: 300px;
+  
+}  
+
+
+body {
+    font-size: 16px; 
+    background-color: #bac7be; 
+ }
+ 
+ ul, footer, h2, p, li {
+     font-family: 'Thasadith', sans-serif;
+    
+ }
+ 
+ h1 {
+     font-family: 'Luckiest Guy', sans-serif, cursive;
+     color: #393939;
+ }
+
+
+
+h3 {
+    font-family: 'Thasadith', sans-serif;
+    color: black;
+}
+
+h2{
+    font-family: 'Luckiest Guy', sans-serif, cursive;
+     font-weight: bolder;
+     color: #474747;
+}
+
+header {
+    background-color:#676767;
+   
+}
+ 
+ header, main, footer, nav {
+     max-width: 760px;
+     margin: 0 auto;
+     font-family: 'Thasadith', sans-serif;
+     
+ }
+
+ 
+ main{
+     background-color: #bac7be; 
+     padding: 1rem;
+
+ }
+ 
+ header img{   
+     width: 200px;
+     height: auto;   
+ }
+
+ nav {     
+    font-family: 'Thasadith', sans-serif;
+    background-color: #80ab82;
+    margin: 0em auto;
+    color: white;
+    /*justify-content: space-between; */
+    font-size: 14px;
+}
+
+nav ul {        
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: .75em;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation a{
+    display: block;
+}
+
+
+  
+nav a:hover{ 
+    background-color: #474747;
+    color: black;
+    box-shadow: 10px 10px 10px;
+     }
+
+
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+   
+
+section {
+        margin: 1rem;
+        border: 2px solid #595959;
+        padding: 1rem;
+    
+     }
+
+
+     /*FOOTER*/
+
+footer {
+    padding: 1em;
+    background-color: #676767;
+    color:#80ab82;
+    font-size: .9em;
+}
+    
+footer p {
+     margin: 0.25em 1em;
+}
+    
+footer a {
+    color: #bac7be;
+}
+    
+.My-Footer {
+    color:#80ab82;
+    text-align: center;
+}
+    
+.Contact-Information p {
+    color: white;
+    text-align: center;
+}
+
+.Contact-Information h4{
+    color:#80ab82;
+    text-align: center;
+    
+}
+    
+    
+.Social-Nav {
+        margin: 1.5em;
+        text-align: center;
+}
+    
+.Social-Nav a {
+        margin: 0 .5em;
+    }
+    
+.Social-Nav img {
+        width: 44px;
+}
+    
+.Map img {
+    display: block;
+    margin: 1em auto;
+    width: 300px;
+}
