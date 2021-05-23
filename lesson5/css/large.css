@@ -1,0 +1,54 @@
+    /* Desktop Views ****************************/
+    @media only screen and (min-width: 960px) {
+        header, main, footer, nav {
+            max-width: 960px;
+        }
+        .navigation {
+            display: flex;
+            font-size: 20px;
+            font-weight: bolder;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+        .navigation li {
+            display: block;
+            margin: 0 1em;
+        
+            flex: 1 1 auto;
+        }
+
+        .navigation li .active {
+            text-decoration: underline;
+            color:#595959;
+            
+            
+        }
+        .navigation li a {
+            padding: .8em 0;
+            border: none;
+        }
+
+    
+
+        header img {
+            width: 200px;
+        
+        }
+    
+        main {
+            padding: 1.5em;
+        }
+
+        .Article-Title {
+            margin: 0 2em;
+        }
+    
+        .forecast li {
+            padding: 3px;   
+            margin: 25px;;
+        
+        }
+        
+    }

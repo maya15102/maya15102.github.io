@@ -1,0 +1,118 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 41.125em) {
+
+    header, main, footer, nav {
+            max-width: 960px;
+    }
+    
+    header {
+            padding: 1.25em .75em;
+            justify-content: left;
+    }
+    
+    header img {
+            width: 225px;
+        
+    }
+      
+    header button {
+          display: none;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+      
+    .navigation {
+         display: flex;
+    }
+      
+    .navigation li {
+       display: block;
+       flex: 1 1 auto;
+     }
+      
+    .navigation li a {
+       text-align: center;
+       border: none;
+       border-right: 1px solid rgba(000, 000, 000, 0.1);
+       font-size: 1em;
+       padding: 1.2em 0;
+        }
+    
+    .fooInf {
+       display: grid;
+       font-size: 16px;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: .5em;
+       margin-left: 1em;
+       text-align: left;
+    }
+    
+    .Map {
+       display: block;
+       grid-area: 1 / 1 / span 2 / span 1;
+    }
+    
+    .Map img {
+       display: block;
+       margin: 1em auto;
+       width: 350px;
+    }
+    
+    .Social-Nav {
+       margin-left: 1em;
+       text-align: left;
+    }
+    
+    .Social-Nav img {
+        width: 45px;
+    }
+    
+    .Contact-Information h4{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .pancake h2 {
+        font-size: 1em;
+      }
+    
+      .pancake p {
+        font-size: 1em;
+      }
+
+      .Hero-Image {
+        position: relative;
+        
+      }
+
+      .summary {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 250px;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #676767; 
+        margin: 1em 5em;
+        padding: 1em;
+        text-align: center;
+        border-radius: 25px;
+      }
+
+      .Article-Title {
+        padding: 0.5em 2em;
+      }
+    
+      .Article-Title img {
+        float: right;
+        width: 400px;
+        margin-left: 1em;
+        margin-bottom: 1em;
+      }
+      .forecast li {
+        padding: 2px;
+       
+       
+    }
+      
+    }  
