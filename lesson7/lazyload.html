@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Loading of Images</title>
+    <meta name="author" content="Gabriela Castillo">
+    <meta name="description" content="Progressive Loading Images Activity"> 
+    <link href="normalize.css" rel="stylesheet">
+    <link href="css/lazyload.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap" rel="stylesheet" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image1.jpeg" 
+            alt="Australia"
+            />
+        </picture>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image2.jpeg" 
+            alt="Syachelles"
+            />
+        </picture>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image3.jpeg" 
+            alt="Maldives"
+            />
+        </picture>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image4.jpeg" 
+            alt="Santorini"
+            />
+        </picture>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image5.jpeg" 
+            alt="San Francisco"
+            />
+        </picture>
+        <picture>
+            <img 
+            src="images/image-placeholder.png" 
+            data-src="images/image6.jpeg" 
+            alt="Uyuni"
+            />
+         </picture>   
+        </main>
+        <script src="js/lazyload.js" defer></script>
+        <footer><strong>&copy; <span id="thisyear"></span></strong>| Gabriela (Maya) Castillo| San Francisco, CA| <a
+            href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <a href="https://maya15102.github.io/index.html">Home Page</a>
+        <p><strong>Last Updated: </strong><span id="lastmod"></span></p>
+    </footer>
+
+</body>
+</html>
