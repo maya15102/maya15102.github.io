@@ -31,7 +31,7 @@ tbody th, td.blue {
 
 th,td {
     padding: .5rem;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 tr:nth-child(even) {
