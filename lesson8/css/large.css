@@ -1,0 +1,80 @@
+    /* Desktop Views ****************************/
+    @media only screen and (min-width: 960px) {
+        header, main, footer, nav {
+            max-width: 960px;
+        }
+        .navigation {
+            display: flex;
+            font-size: 20px;
+            font-weight: bolder;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+       
+    
+    .navigation li {
+        display: block;
+        margin: 0 1em;
+        flex: 1 1 auto;
+    }
+
+    .navigation li .activenow {
+        font-weight: bold;
+        color:#595959;
+            
+            
+    }
+
+    .navigation li a {
+        padding: .8em 0;
+        border: none;
+    }
+
+    
+    header img {
+        width: 200px;
+        
+    }
+    
+    main {
+        padding: 1.5em;
+    }
+
+    .Article-Title {
+        margin: 0 2em;
+    }
+    
+    .forecast li {
+        padding: 3px;   
+        margin: 25px;;
+        
+    }
+        
+    .phrase {
+        text-align: center;
+    }
+
+    .container-gallery {
+        max-width: 1000px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+            
+  
+            
+    figure {
+            
+        font-size: 20px;
+    }
+            
+    figure:hover {
+        box-shadow: 0 0 40px rgb(46, 45, 45);
+        border-radius: 10px;
+    }
+
+    img[data-src] {
+        filter: blur(0.2em);
+    }
+            
+    }
