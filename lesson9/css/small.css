@@ -262,60 +262,51 @@ figure{
 }
 
 /* Towns*/
-.contenido section{
+
+.contenido{
     display: grid;
-    margin: 5px;
-    margin-top: 2em;
+    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
+    max-width: 100%;
+    grid-gap: 10px;
+    padding: 2em
+  
+}
+.contenido section{
+  
+    margin: 0 auto;
     padding-bottom: 15px;
     background-color: #cedece;
-    max-width: 100%;
-    padding:15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 10px 10px 10px black;
     
 }
   
-.contenido section h2 {
-    margin-top: .50em;
-    margin-bottom: .10em;
+  
+.contenido section h3 {
+    color: #8a3754;
+    font-weight: bold;
+   
 }
   
-.contenido section p {
-    margin: .35em;
-    margin-bottom: .10em;
-  }
+
+  
+.contenido section img {
+   width: 85%;
+   height: auto;
+   box-shadow: 10px 10px 10px black;
+   margin-top: .50em;
+   margin-bottom: .50em;
+   padding: 5px;
+   filter: blur(0em);
+   transition: filter 1s;
+}
 
 .numero-2 h4{
     font-family: 'Barlow Condensed', sans-serif;
     margin: .35em;
     margin-bottom: .10em;
-}
-  
-.contenido section h3 {
-    color: #8a3754;
-    font-weight: bold;
-    margin: .70em;
-    margin-top: .50em;
-    margin-bottom: .30em;
-}
-  
-.contenido{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 100%;
-    max-width: 100%;
-    text-align: left;
-    padding: 10px;
-  
-}
-  
-.contenido section img {
-   width: 100%;
-   height: auto;
-   box-shadow: 10px 10px 10px black;
-   margin-top: .50em;
-   margin-bottom: .50em;
 }
   
 

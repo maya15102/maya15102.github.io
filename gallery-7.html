@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 : Gabriela Castillo| L4 Preston Town Page</title>
+    <meta name="author" content="Gabriela Castillo">
+    <meta name="description" content="Preston Town Home Page for Gabriela Castillo in WDD 230: Web Frontend Development at Brigham Young University - Idaho"> 
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+   
+    
+    <header>
+        
+        <img src="images/check.png" alt="Check Climate Now Logo"> 
+       
+    </header>
+    <nav>
+        <ul class= "navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://maya15102.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://maya15102.github.io/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>   
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://maya15102.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a class="activenow"  href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+      <h1><strong> Gallery</strong></h1>
+      <div class="container-gallery">
+    
+        <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image1Spring.jpeg" alt="Spring in Half Moon Bay, CA"/>
+          </picture>
+            <figcaption>Spring in Half Moon Bay, CA</figcaption>
+          </figure>
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image2Snow.jpeg" alt="Winter in Lake Tahoe, CA"/>
+            </picture>
+          <figcaption>Lake Tahoe, CA Mountains </figcaption>
+          </figure>
+      
+      
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholderr.png" data-src="images/image3Summer.jpeg" alt="Golden Gate/ San Francisco, CA"/>
+            </picture>
+          <figcaption>Golden Gate on a Summer Afternoon</figcaption>
+          </figure>
+      
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image4fall.jpeg" alt="Debod Temple, Spain"/>
+            </picture>
+          <figcaption>Fall at Debod Temple, Spain</figcaption>
+          </figure>
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image5rainbow.jpg" alt="Beautiful Rainbow"/>
+            </picture>
+          <figcaption>Beauty after the Storm</figcaption>
+          </figure>
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image6Thunder.jpg" alt="Thunder Storm"/>
+          </picture>
+            <figcaption>Thunder Storm in SF, CA</figcaption>
+          </figure>
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image7Snow2.jpeg" alt="Reno Snow"/>
+          </picture>
+            <figcaption>Snow in Reno, Nevada </figcaption>
+          </figure>
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image8SF.jpeg" alt="SF, CA landscape"/>
+          </picture>
+            <figcaption>Summer in San Francisco, CA</figcaption>
+          </figure>
+      
+          <figure>
+            <picture>
+            <img src="images/image-placeholder.png" data-src="images/image9Beach.jpeg" alt="Half Moon Bay Beach"/>
+          </picture>
+            <figcaption>Half Moon Bay CA Summer Beach</figcaption>
+          </figure>
+    
+      </div>
+      
+     
+
+    </main>
+    <footer>
+      <div class="fooInf">
+        <div class="Map">
+            <img src="images/map.png" alt="Map"  />
+          </div>
+          <div class="Contact-Information">
+            <h4>Contact Information</h4>
+            <p>
+              &nbsp;&#128205;&nbsp; Location<br />
+              &#128222; Phone Number <br />
+              &#128231; email address <br />
+             
+            </p>
+          </div>
+
+          <div class="Social-Nav">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="30" /></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/Pinterest.png" alt="Pinterest Logo" width="32"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/Youtube.png" alt="Youtube Logo" width="41" /></a>
+          </div>
+
+        
+        </div>
+        <div class="My-Footer">
+            <strong>&copy; <span id="thisyear"></span></strong>| Gabriela (Maya) Castillo| San Francisco, CA| <a
+             href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <a href="https://maya15102.github.io/index.html">Home Page</a> |  <p class="visitsGallery"> You were here  <span id="days"></span>   days ago!</p>
+             
+             <div class="date subtitle"></div>
+    </div>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+    google: {
+      families: [
+          'Barlow Condensed', 'Oswald'
+      ]
+    }
+  });
+  </script>
+     
+     <script src="js/gallery.js"></script>
+
+  </body>
+
+</html>

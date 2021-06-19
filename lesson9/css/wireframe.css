@@ -1,0 +1,40 @@
+body {
+    
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-size: 150%;
+}
+
+h2 {
+    font-family: 'Maiden Orange', cursive;
+    
+}
+header, footer{
+    border: 1px solid #9d8189;
+    padding: 1rem;
+    background-color: #9d8189;
+    text-align: center;
+    
+    
+}
+main{
+    background-color: #f7eeed; 
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+main {
+    display: grid;
+    grid-column: 1;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 2s;
+    padding: 5px;
+}

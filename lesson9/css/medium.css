@@ -139,7 +139,22 @@
         font-size: 20px;
     }
 
-    .contenido{
+          
+    .contenido section {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+          
+    .contenido section:nth-child(odd) img{
+        grid-column: 1;
+    }
+
+    .contenido section:nth-child(odd) #cont {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      
+      .cont p {
+        line-height: 1px;
         }
 }

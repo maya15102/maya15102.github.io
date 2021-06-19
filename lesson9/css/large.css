@@ -72,9 +72,26 @@ img[data-src] {
     filter: blur(0.2em);
 }
 
-.contenido{
-    grid-template-columns: 1fr 1fr 1fr ;
-}
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0;
+  }
+  
+
+  
+  .contenido section {
+    display: block;
+    padding: .25em 1em;
+    
+  }
+  
+  #cont p {
+    line-height: 10px;
+    padding: 0%;
+    }
+
     
 article {
     margin: 0 auto ;

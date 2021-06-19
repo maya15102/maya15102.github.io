@@ -13,15 +13,14 @@ fetch(requestURL)
     for (var i = 0; i < towns.length; i++) {
         if ( towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven" || towns[i].name == "Greenville"  || towns[i].name == "Franklin" || towns[i].name == "Placerton" || towns[i].name == "Springfield"  ){
         
-
-      var contenido = document.createElement('section');
-      var h2 = document.createElement('h2');
-      var h3 = document.createElement('h3');
-      var year = document.createElement('p');
-      var population = document.createElement('p');
-      var rainfall = document.createElement('p');
-      var image = document.createElement('img');
-      
+            var card = document.createElement('section');
+            var h2 = document.createElement('h2');
+            var h3 = document.createElement('h3');
+            var year = document.createElement('p');
+            var population = document.createElement('p');
+            var rainfall = document.createElement('p');
+            var image = document.createElement('img');
+            var cont = document.createElement('div');
 
 
 
@@ -33,21 +32,21 @@ fetch(requestURL)
       rainfall.textContent = "Annual RainFall: " + towns[i].averageRainfall;
       image.setAttribute('src', "images/" + towns[i].photo);
       image.setAttribute('alt', "picture of: " + h2.textContent);
-      
+      cont.setAttribute('id', 'cont');
       
       
     
 
-
-
-      contenido.appendChild(h2);
-      contenido.appendChild(h3);
-      contenido.appendChild(year);
-      contenido.appendChild(population);
-      contenido.appendChild(rainfall);
-      contenido.appendChild(image);
+      card.appendChild(cont);
+      card.appendChild(image);
+      cont.appendChild(h2);
+      cont.appendChild(h3);
+      cont.appendChild(year);
+      cont.appendChild(population);
+      cont.appendChild(rainfall);
+      
    
-      document.querySelector('div.contenido').appendChild(contenido);
+      document.querySelector('div.contenido').appendChild(card);
 
         }
 }

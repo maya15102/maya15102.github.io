@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 : Gabriela Castillo| L4 Preston Town Page</title>
+    <meta name="author" content="Gabriela Castillo">
+    <meta name="description" content="Preston Town Home Page for Gabriela Castillo in WDD 230: Web Frontend Development at Brigham Young University - Idaho"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div class="pancake">
+        <h2>✨ Saturday = Preston Pancakes in the Park 🥞</h2>
+        <p><em>9:00 a.m.</em> Saturday at the pavilion.</p>
+      </div>
+    
+    <header>
+        
+        <img src="images/logo.png" alt="Check Climate Now Logo"> 
+       
+    </header>
+    <nav>
+        <ul class= "navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://maya15102.github.io/lesson9/index.html">Home</a></li>
+            <li><a class="active" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://maya15102.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://maya15102.github.io/lesson7/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+      <h1><strong> Preston Idaho</strong></h1>
+      <div class="hero-image"> 
+        <picture>
+            <source media="(max-width: 360px)" srcset="images/hero-small.jpg">
+            <source media="(max-width: 720px)" srcset="images/hero-medium.jpg">
+            <img src="images/hero-large.jpg" alt="Hero Image">
+          </picture>
+        <div class="summary">   
+            <h2>Weather Summary</h2>
+            
+              Currently: <span>Sunny</span> <br>
+              High: <span class="temp">45       &deg;F</span> <br>
+              Wind Chill: <span id="windChill"></span> <br>
+              Humidity: <span>69%</span> <br>
+              Wind Speed: <span class="wspeed">5 mph</span> <br>
+            
+          </div>
+        </div>
+     
+
+      <div class="forecast">
+        <h2>Five Day Forecast</h2>
+        
+           
+           <ul>
+               <li>MON<img src="images/snowicon.png" alt="Snow">48°</li>
+               <li>TUE <img src="images/suncloudicon.png" alt="Partly Cloudy">56°</li>
+               <li>WED<img src="images/sunicon.png" alt="Sunny">74°</li>
+               <li>THU<img src="images/sunrainicon.png" alt="Rainy">63°</li>
+               <li>FRI<img src="images/thundericon.png" alt="Thunder Storm">60°</li>
+            </ul>     
+        
+
+        </div>
+        <hr>
+      
+      <div class="Article-Title">
+        <h2>Article Title</h2>
+        <img src="images/image4.jpeg" alt="beach view" width="350" />
+        <p class="article-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto debitis nihil soluta fugiat. Eveniet, animi veritatis et quia omnis, ab praesentium dolores pariatur, minus maxime eaque. Dolorum reprehenderit quam sunt? Quos tempora nulla et libero ad nisi perspiciatis,
+            architecto, voluptas ut amet expedita, commodi quam deleniti id
+            ducimus reiciendis corporis. Nesciunt quam quos nobis asperiores,
+            voluptates qui esse quae sint eius eum accusamus alias deleniti
+            repudiandae odio reprehenderit quaerat, consequuntur architecto
+            aspernatur autem incidunt sed? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto debitis nihil soluta fugiat. Eveniet, animi veritatis et quia omnis, ab praesentium dolores pariatur, minus maxime eaque. Dolorum reprehenderit quam sunt? Quos tempora nulla et libero ad nisi perspiciatis,
+            architecto, voluptas ut amet expedita, commodi quam deleniti id
+            ducimus reiciendis corporis. Nesciunt quam quos nobis asperiores,
+            voluptates qui esse quae sint eius eum accusamus alias deleniti
+            repudiandae odio reprehenderit quaerat, consequuntur architecto
+            aspernatur autem incidunt sed? 
+        </p>
+        
+        
+    </div>
+      
+     
+
+    </main>
+    <footer>
+      <div class="fooInf">
+        <div class="Map">
+            <img src="images/map.png" alt="Map"  />
+          </div>
+          <div class="Contact-Information">
+            <h4>Contact Information</h4>
+            <p>
+              &nbsp;&#128205;&nbsp; Location<br />
+              &#128222; Phone Number <br />
+              &#128231; email address <br />
+             
+            </p>
+          </div>
+
+          <div class="Social-Nav">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="30" /></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/Pinterest.png" alt="Pinterest Logo" width="32"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/Youtube.png" alt="Youtube Logo" width="41" /></a>
+          </div>
+
+        
+        </div>
+        <div class="My-Footer">
+            <strong>&copy; <span id="thisyear"></span></strong>| Gabriela (Maya) Castillo| San Francisco, CA| <a
+             href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <a href="https://maya15102.github.io/index.html">Home Page</a>
+             
+             <div class="date subtitle"></div>
+    </div>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+    google: {
+      families: [
+          'Barlow Condensed', 'Oswald'
+      ]
+    }
+  });
+  </script>
+     <script src="js/windchill.js"></script>
+     <script src="js/preston.js"></script>  
+
+  </body>
+
+</html>
