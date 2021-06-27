@@ -78,7 +78,7 @@
         font-size: 1em;
       }
 
-      .Hero-Image {
+      .banner-GRANDE {
         position: relative;
         
       }
@@ -114,33 +114,10 @@
         display:grid;
       }
 
-      h4.forecast-item {
-        background-color:#accbe1;
-        border-radius: 8px;
-        
-      }
-      
-       .forecast-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: .50rem;
-        margin: .20em;
-      }
-      .forecast-item img {
-      padding: .5rem;
-      }
+     
       .gridforecast {
       display: flex;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      border-radius: 8px;
-      justify-content: space-between;
-      text-align: center;
-      align-items: center;
-      
-      color: white;
-      text-shadow: 2px 2px 4px rgb(241, 238, 238);
       }
       
     }  

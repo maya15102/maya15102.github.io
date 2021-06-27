@@ -124,17 +124,7 @@
         margin:20px;
     }
     
-    .numero-2{
-        margin: 30px;
-        padding: 20px;
-    }
-
-   
-      .img-overlay h3{
-        margin: 0 0 .8em auto;
-        border-bottom: 1px solid #fff;
-      
-      }
+  
       
       .container-numero {
         display: block;
@@ -142,15 +132,8 @@
       }
       .gridforecast {
         display: grid;
-        
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        border-radius: 8px;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
         
-        color: white;
-        text-shadow: 2px 2px 4px rgb(241, 238, 238);
       }
 
       
