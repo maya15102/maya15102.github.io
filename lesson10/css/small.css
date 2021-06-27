@@ -1,0 +1,305 @@
+
+.Hero-Image img {
+    width: 100%;
+    height: 600px;
+  
+}  
+
+
+body {
+    font-size: 16px; 
+    background-color: #bfc0c0; 
+ }
+ 
+ ul, footer, h2, p, li {
+     font-family: 'Barlow Condensed', sans-serif;
+    
+ }
+ 
+ h1 {
+     font-family: 'Oswald', sans-serif, cursive;
+     color: #393939;
+ }
+
+
+
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: black;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif, cursive;
+     font-weight: bolder;
+     color: #474747;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.75em 5px;
+    background-color:#676767;
+   
+}
+ 
+ main {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: 'Barlow Condensed', sans-serif;
+     
+}
+
+ 
+ main{
+    background-color: #e5e6e4; 
+    padding: 1rem;
+
+}
+ 
+ header img{   
+     width: 150px;
+     height: auto;   
+ }
+
+ nav {     
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #80ab82;
+    margin: 0em auto;
+    color: white;
+    /*justify-content: space-between; */
+    font-size: 14px;
+}
+
+nav ul {        
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: .75em;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation a{
+    display: block;
+}
+
+
+  
+nav a:hover{ 
+    background-color: #474747;
+    color: black;
+    box-shadow: 10px 10px 10px;
+     }
+
+
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+   
+
+section {
+        margin: 1rem;
+        border: 2px solid #595959;
+        padding: 1rem;
+    
+     }
+
+
+     /*FOOTER*/
+
+footer {
+    padding: 1em;
+    background-color: #676767;
+    color:#80ab82;
+    font-size: .9em;
+}
+    
+footer p {
+     margin: 0.25em 1em;
+}
+    
+footer a {
+    color: #bac7be;
+}
+    
+.My-Footer {
+    color:#80ab82;
+    text-align: center;
+}
+    
+.Contact-Information p {
+    color: white;
+    text-align: center;
+}
+
+.Contact-Information h4{
+    color:#80ab82;
+    text-align: center;
+    
+}
+    
+    
+.Social-Nav {
+        margin: 1.5em;
+        text-align: center;
+}
+    
+.Social-Nav a {
+        margin: 0 .5em;
+    }
+    
+.Social-Nav img {
+        width: 44px;
+}
+    
+.Map img {
+    display: block;
+    margin: 1em auto;
+    width: 300px;
+}
+
+.pancake {
+    background-color: white;
+    padding: .75em 0;
+    display: none;
+}
+
+.pancake h2 {
+    margin: 0;
+    color: #676767;
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pancake {
+    margin: 0;
+    color: #676767;
+    padding: .3em;
+    text-align: center;
+    font-size: .9em;
+}
+.summary span {
+    font-weight: bold;
+    color: var(--darkblue);
+   
+}
+
+.summary{
+opacity: .5;
+background-color: #cfd2cd;
+padding: 1em;
+text-align: center;
+}
+
+/*.forecast {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 1em;
+    
+  }
+
+
+  .forecast ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    
+  }
+
+
+.forecast li {
+    padding: 0;
+   
+   
+}
+  .forecast img {
+      width: 80px;
+      padding: 4px;
+      
+}*/
+  .container-banner {
+    position: relative;
+}
+
+.banner-GRANDE img {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .container-numero {
+    background-color: #3c4f76;
+    margin: 2em 0 1.7em 0;
+    padding: .6em;
+    border-radius: 5px 5px 5px 5px;
+    color:#3c4f76;
+    align-content: center;
+  }
+
+ /* h4.forecast-item:nth-child(1) {
+    margin-left: 20px;
+}
+
+.forecast-item img {
+    padding: .5rem;
+}
+
+
+h4 {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+}
+.gridforecast{
+  display: none;
+}
+.forecast table {
+    margin: .5em auto;
+    padding-top: .5em;
+    background-color:#5995ED;
+   
+    border-radius: 5px 5px 5px 5px;
+  
+  }
+  
+  .forecast table th {
+    font-size: 115%;
+    color:goldenrod;
+  }
+  
+  .forecast table td {
+    padding: .8em;
+    font-size: 25px;
+    background-color:lightsteelblue;
+    border: 2px solid #383f51;
+  } */
+
