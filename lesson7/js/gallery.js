@@ -18,7 +18,7 @@ datefield.textContent = fulldate;
 
 // Pancake Announcement
 if (now.getDay() == 5) {
-    document.querySelector('.banner').style.display = "block"
+    document.querySelector('.pancake').style.display = "block"
 }
 
 // Lazy Loading Images
