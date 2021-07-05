@@ -1,6 +1,6 @@
 
 
-  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=dcb22e10016da9ef1aeb0b0a22df9dca";
+  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=dcb22e10016da9ef1aeb0b0a22df9dca";
   fetch(apiURL)
    
  
@@ -55,3 +55,26 @@
            
          });
        });
+
+
+        /*upcoming events*/
+eventURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+fetch(eventURL)
+.then((response)=>response.json())
+.then((jsonObject)=>{console.log()
+    
+const towns = jsonObject.towns[6];
+
+let calender = document.createElement('div');
+let h3 = document.createElement('h3');
+let item1 = document.createElement('p');
+let item2 = document.createElement('p');
+let item3 = document.createElement('p');
+h3.textContent = "Upcoming Events";
+item1.textContent = towns.events[0];
+item2.textContent = towns.events[1];
+item3.textContent = towns.events[2];
+calender.append(h3, item1, item2, item3);
+document.querySelector('div.upcoming').appendChild(calender);
+
+}); 

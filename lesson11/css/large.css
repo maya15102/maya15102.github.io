@@ -23,12 +23,13 @@
     
     .navigation li .activenow {
         font-weight: bold;
-        color:#595959;
+        color:#aa4465;
     }
     
     .navigation li a {
         padding: .8em 0;
         border: none;
+        font-size: 1em;
     }
     
     header img {
@@ -42,6 +43,11 @@
     
     .Article-Title {
         margin: 0 2em;
+    }
+
+    .Article-Title img {
+        margin-top: 0em;
+        margin-left: 40px;
     }
         
     .forecast li {
@@ -99,7 +105,7 @@
     }
     
     .numero-2 img{
-        margin: auto;
+        margin: 15px;
         max-width: 100%;
         float: right;
     }
@@ -136,6 +142,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         
       }
+
+    
 
       
 }

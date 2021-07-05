@@ -21,8 +21,6 @@ if (now.getDay() == 5) {
     document.querySelector('.pancake').style.display = "block"
 }
 
-
-
 // Lazy Loading Images
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
@@ -78,5 +76,3 @@ document.getElementById("days").innerHTML = lastVisit;
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
-
-

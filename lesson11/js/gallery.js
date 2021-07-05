@@ -21,8 +21,6 @@ if (now.getDay() == 5) {
     document.querySelector('.pancake').style.display = "block"
 }
 
-
-
 // Lazy Loading Images
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
@@ -73,10 +71,4 @@ if (!localStorage.getItem('last')) {
 }
 
 document.getElementById("days").innerHTML = lastVisit;
-
-// Storm Rate
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
-
 

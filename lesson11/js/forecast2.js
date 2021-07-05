@@ -1,6 +1,6 @@
 
 
-  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=dcb22e10016da9ef1aeb0b0a22df9dca";
+  const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=dcb22e10016da9ef1aeb0b0a22df9dca";
   fetch(apiURL)
    
  
@@ -56,7 +56,8 @@
          });
        });
 
-               /*upcoming events*/
+
+        /*upcoming events*/
 eventURL = "https://byui-cit230.github.io/weather/data/towndata.json"
 fetch(eventURL)
 .then((response)=>response.json())
