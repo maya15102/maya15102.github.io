@@ -1,0 +1,39 @@
+{
+    "Local Companies": [
+      {
+        "name": "Rakuten",
+        "photo": "rakuten.jpg",
+        "motto": "Feel the Joy of Cash Back",
+        "advertisement": "Get ready for the better way to shop.  Install and join now.",
+        "events": [
+          "August 1-6: Extra Cash Back when you spend $25.",
+          "Septermber 10-15: Days of Rakuten Celebration",
+          "October 31: Rakuten Halloween Spooky Fest"
+        ]
+      },
+      {
+        "name": "Hillsdale Mall",
+        "photo": "Hillsdale.jpg",
+        "motto": "Hart of the Peninsula",
+        "advertisement": "A hub of entertainment & recreation, dining and shopping like no other",
+        "events": [
+          "July 21: Entertainment & Indoor Dining Now Open",
+          "July 25-30: FREE Tai Chi, Yoga and Pilates Classes",
+          "Septermber 1: Red Door Escape Room Ignauration"
+         
+        ]
+      },
+      {
+        "name": "San Mateo Credit Union",
+        "photo": "CreditUnion.jpg",
+        "motto": "More than just Money",
+        "advertisement": "It's good to have dreams. It's even better when they come true",
+        "events": [
+          "August 5-11: People Helping People Workshop",
+          "September 1-6: FREE Home Buying Seminar"
+          
+         
+        ]
+      }
+    ]
+  }
