@@ -1,0 +1,80 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 960px) {
+      
+.navigation {
+    display: flex;
+    font-size: 22px;
+    font-weight: bolder;
+}
+    
+.navigation li:first-child {
+    display: none;
+}
+        
+h1{
+    font-size: 40px;
+}
+        
+.navigation li {
+    display: block;
+    margin: 0 1em;
+    flex: 1 1 auto;
+}
+    
+
+    
+.navigation li a {
+    padding: .8em 0;
+    border: none;
+    font-size: 1em;
+}
+
+    
+header img {
+    width: 325px;
+}
+        
+main {
+    padding: 1.5em;
+    max-width: 960px;
+}
+
+.covid {
+    padding-left: 350px;
+}
+
+.purpose{
+    left: 30em;
+}
+
+/* Companies Advertisement */
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0;
+}
+  
+
+  
+.companies section {
+    display: block;
+    padding: .25em 1em;
+    
+}
+  
+#cont p {
+    line-height: 10px;
+    padding: 0%;
+}
+
+
+.weather img{
+    max-width: 100%;
+    margin: 0 2%;
+}
+/* Upcoming Events */
+.newevents div {
+    margin: 5rem;
+}
+}

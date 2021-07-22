@@ -1,0 +1,356 @@
+.hero-image img {
+    width: 100%; 
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+}  
+
+
+body {
+    font-size: 16px; 
+    background-color: #ae9253; 
+}
+ 
+ul, footer, p, li {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+ 
+h1 {
+    font-family: 'Encode Sans SC', sans-serif, cursive;
+    color: #353746;
+}
+
+
+h3 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #ae9253;
+}
+
+h2{
+    font-family: 'Encode Sans SC', sans-serif, cursive;
+     font-weight: bolder;
+     color: #ae9253;
+     text-shadow: 1px 1px #353746;
+}
+h4 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #353746; 
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.75em 5px;
+    background-color:#c0dad8;
+   
+}
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    background-color: #e5ebf3; 
+    padding: 1rem;
+     
+}
+
+header img{   
+     width: 250px;
+     height: auto;   
+}
+
+nav {     
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    background-color: #353746;
+    margin: 0em auto;
+    color: white;
+    /*justify-content: space-between; */
+    font-size: 14px;
+}
+
+nav ul {        
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: .75em;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation a{
+    display: block;
+}
+
+
+  
+nav a:hover{ 
+    background-color: #ddbb4d;
+    color: #353746;
+    box-shadow: 10px 10px 10px;
+}
+
+
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+    display: block;
+}
+.purpose p {
+    font-weight: bold;
+    color: var(--darkblue);
+    justify-content: space-between;
+    line-height: 1.8;
+   
+}
+.purpose{
+    opacity: .8;
+    background-color: #cfd2cd;
+    padding: 1em;
+    text-align: center;
+}
+
+.hero-image a {
+    background-color: #ddbb4d;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    margin: 2em;
+}
+  
+.hero-image a:hover {
+    background-color: #393939;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+}
+
+.covid{
+    color: #353746;
+}
+  /* Companies Advertisement */
+
+.companies{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
+    max-width: 100%;
+    grid-gap: 10px;
+    padding: 2em;
+    margin: 0 auto;
+  
+}
+.companies section{
+  
+  
+    
+    background-color: #e5ebf3;
+    border-bottom: 2px solid #353746;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+  .companies section h3 {
+    color: #353746;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    
+   
+}
+
+.companies section p {
+    color: #353746;
+    font-size: 0.8rem;
+    font-family: 'Encode Sans SC', sans-serif, cursive;
+}
+  
+.companies section img {
+   width: 90%;
+   height: auto;
+   margin-top: .50em;
+   margin-bottom: .50em;
+   padding: 5px;
+   filter: blur(0em);
+   transition: filter 1s;
+   margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+    padding: 1em;
+    background-color: #c0dad8;
+    color:#353746;
+    font-size: .9em;
+    margin: 0 auto;
+}
+    
+footer p {
+     margin: 0.25em 1em;
+}
+    
+footer a {
+    color: #353746;
+}
+    
+.My-Footer {
+    color: #ae9253;
+    text-align: center;
+}
+    
+.Contact-Information p {
+    color: #353746;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.Contact-Information h2{
+    
+    text-align: center;
+    
+}
+    
+    
+.Social-Nav {
+        margin: 1.5em;
+        text-align: center;
+}
+    
+.Social-Nav a {
+        margin: 0 .5em;
+    }
+    
+.Social-Nav img {
+        width: 44px;
+}
+    
+.Map img {
+    display: block;
+    margin: 1em auto;
+    width: 300px;
+}
+
+/* Upcoming Events */
+
+.newevents div {
+    display: block;
+    border-bottom: 2px solid #353746;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.newevents h3 {
+    margin: 0;
+}
+.upcoming {
+    display: flex;
+    align-items: center;
+    padding:0 2%;
+   
+}
+
+
+
+/* Wheater Summary */
+.overlay h3{
+    font-family:'Encode Sans SC', sans-serif, cursive;
+    color: #ae9253;
+    margin: 0;
+}
+
+.summary-box {
+    margin: 0 1em;
+    border-bottom: 2px solid #353746;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.content p{
+    color: #353746;
+    text-align: left;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1.8em;
+}
+
+.temprature {
+    color: #353746;
+    font-size: 24px;
+}
+
+.weather {
+    font-size: 1.8em;
+    font-family:'Encode Sans SC', sans-serif, cursive;
+}
+
+.condition {
+    list-style: none;
+    padding: .75em 0;
+    margin: 0;
+}
+    
+.label{
+    color: #353746;
+    text-align: left;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.label span {
+    color: #353746;
+}
+
+/* 3 days Forecast */
+.dailyweather { 
+    background: rgba(255,255,255,0.12);
+    padding: 1.75em;
+}
+
+
+.fivedays {
+    background:
+    radial-gradient(at top left, #c0dad8, transparent),
+    radial-gradient(at top right, #ddbb4d, transparent);
+    box-shadow: 0 2px 8px 0 #c0dad8;
+    border-radius:  35px;
+    margin-bottom: 6em;
+}
+    
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", Karla, sans-serif;
+    text-align: center;
+    color:#353746;
+    margin: 0 auto;
+}
+
+.forecast img{
+    width: 70px;
+}

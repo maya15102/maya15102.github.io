@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 : Gabriela Castillo| L12 Home Page</title>
+    <meta name="author" content="Gabriela Castillo">
+    <meta name="description" content="San Mateo Chamber of Commerce for Gabriela Castillo in WDD 230: Web Frontend Development at Brigham Young University - Idaho"> 
+    <link rel="icon" href="images/favicon (1).ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&family=Fira+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div class= "covid">
+      <h4> 🦠 COVID 19 UPDATES: <em>Click here </em> for latest announcements and resources. </h4>
+      
+    </div>
+  
+    
+    <header>
+        
+        <img src="images/logoCC.png" alt="SM Chamber of Commerce Logo"> 
+       
+    </header>
+    <nav>
+        <ul class= "navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="activenow"  href="index.html">Home</a></li>
+            <li><a href="sanmateo.html">San Mateo</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="joinus.html">Join Us</a></li>
+           
+        </ul>
+    </nav>
+    
+    <main class="storm">
+        <h1><strong> Become a Member Now!</strong></h1>
+        <p class="instructions">Can't wait to become a part of our Chamber? Welcome to our Member application process, please complete and submit this application. This is the perfect place to find out more about the Chamber and it's many benefits. </p>
+        <div class="container form">
+          <form class="storm" method="GET" action="thankyou.html">
+              <fieldset>
+                  <legend class="title">
+                      Personal Information
+                  </legend>
+                  <label for="name" class="label-top">
+                      Full Name *
+                      <input required type="text" name="name" id="name" placeholder="Full Name" title="enter your first and last name"
+                          pattern="^[a-zA-ZÀ-ž\-']{2,25}(\s[a-zA-ZÀ-ž\-']{1,25}.\s[a-zA-ZÀ-ž\-']{2,25}|\s[a-zA-ZÀ-ž\-']{2,25})$"
+                          autocomplete="name" />
+                  </label>
+                  <label for="email" class="label-top">Email* <input type="email" id="email" name="email" placeholder="abc123@example.com"
+                          title="Please enter a valid email" autocomplete="email"></label>
+                  <label for="phone" class="label-top">
+                      Phone Number *
+                      <input required type="tel" name="phone" id="phone" placeholder="12345678" title="Please enter your phone number"
+                          autocomplete="tel" />
+                  </label>
+                  <label for="zip-code" class="label-top">
+                      ZIP Code *
+                      <input required type="text" name="zip-code" id="zip-code" placeholder="94402"
+                          title="Please enter your zip code or postal code" autocomplete="postal-code" />
+                  </label>
+                  <label for="title" class="label-top">
+                    Title *
+                    <input required type="text" name="title" id="title" placeholder="Title" title="Please enter your title"
+                        pattern="^[a-zA-ZÀ-ž\-']{2,25}(\s[a-zA-ZÀ-ž\-']{1,25}.\s[a-zA-ZÀ-ž\-']{2,25}|\s[a-zA-ZÀ-ž\-']{2,25})$"
+                        autocomplete="title" />
+                </label>
+              </fieldset>
+              
+             <!--First part-->
+              <fieldset>
+                  <legend class="title">
+                      Business Information 
+                  </legend>
+                  <label for="date" class="label-top">
+                      Date of the Storm *
+                      <input required type="date" name="input" id="date" title="select the date of storm event"
+                          autocomplete="on" />
+                  </label>
+                  <label for="storm-type" class="label-top" title="Type your response into the field. ">
+                      Type of the Storm
+                      <input required type="text" list="storm-choices" name="storm-type" id="storm-type" title="Type your response into the field."
+                          placeholder="double-click" />
+                      <datalist id="storm-choices">
+                          <option value="Flash Flood"></option>
+                          <option value="Hail"></option>
+                          <option value="Hurricane"></option>
+                          <option value="Thunderstorm"></option>
+                          <option value="Tornado"></option>
+                      </datalist>
+                  </label>
+  
+                  <label class="label-top">Storm Region
+                      <select name="subject">
+                          <option value="" selected disabled>Region</option>
+                          <option value="preston">Preston</option>
+                          <option value="soda-springs">Soda Springs</option>
+                          <option value="fish-haven">Fish Haven</option>
+                      </select>
+                  </label>
+  
+              </fieldset>
+  
+            <!--Second part-->
+              <fieldset>
+                  <legend class="title">Are you in Danger?<em> (Choose one)</em></legend>
+                  <div><label class="radio storm" for="yes">
+                          <input type="radio" id="yes" name="danger-level" value="yes" checked>
+                          Yes</label>
+                  </div>
+                  <div><label class="radio storm" for="maybe">
+                          <input type="radio" id="maybe" name="danger-level" value="maybe">
+                          Maybe</label>
+                  </div>
+                  <div><label class="radio storm" for="no">
+                          <input type="radio" id="no" name="danger-level" value="no">
+                          No</label>
+                  </div>
+              </fieldset>
+  
+          <!--Third part-->
+          <fieldset>
+              <legend class="title">Rate the Storm<em> (1 to 10)</em></legend>
+              <label><input type="range" id="rating" value="5" min="1" max="10" step="1" list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                  <span id="ratingvalue">5</span></label>
+              <datalist id="severity">
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5">
+                  <option value="6">
+                  <option value="7">
+                  <option value="8">
+                  <option value="9">
+                  <option value="10">
+              </datalist>
+          </fieldset>
+              <fieldset>
+                  <legend class="title">Detail <em>(optional)</em></legend>
+                  <div>
+                      <label class="label-top" for="textarea">
+                          <textarea name="data" id="textarea" placeholder="additional information"
+                              rows="4" cols="50"></textarea>
+                      </label>
+                  </div>
+              </fieldset>
+              <input type="submit" name="storm-report" value="Submit Report" class="submitBtn">
+          </form>
+      </div>
+        
+       
+  
+      </main>
+    
+    
+   
+    <footer>
+      <div class="fooInf">
+        <div class="Contact-Information">
+            <h2>Contact Information</h2>
+            <p>
+              &nbsp;&#128205;&nbsp; 1730 S Amphlett Blvd Ste 206, San Mateo, CA 94402 <br />
+              &#128222; (650)316-4678 <br />
+              &#128231; sanmateo@chamberofcommerce.com<br />
+             
+            </p>
+          </div>
+        <div class="Map">
+            <img src="images/SMCCMap.png" alt="Map"  />
+          </div>
+        
+
+          <div class="Social-Nav">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fbgold.png" alt="Facebook Logo" width="30" /></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/pgold.jpeg" alt="Pinterest Logo" width="32"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/ygold.jpeg" alt="Youtube Logo" width="41" /></a>
+          </div>
+
+        
+        </div>
+        <div class="My-Footer">
+            <strong>&copy; <span id="thisyear"></span></strong> | Gabriela (Maya) Castillo| San Francisco, CA| <a
+             href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <p class="visits"> You were here  <span id="day"></span>   days ago!</p>
+             
+             <div class="date subtitle"></div>
+    </div>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+    google: {
+      families: [
+          'Encode Sans SC', 'Fila Sans Extra Condensed'
+      ]
+    }
+  });
+  </script>
+     
+     <script src="js/index.js"></script>
+     <script src="js/companies.js"></script>
+     <script src="js/weather.js"></script>
+
+  </body>
+
+</html>

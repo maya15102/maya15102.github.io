@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 230 : Gabriela Castillo| L12 Home Page</title>
+    <meta name="author" content="Gabriela Castillo">
+    <meta name="description" content="San Mateo Chamber of Commerce for Gabriela Castillo in WDD 230: Web Frontend Development at Brigham Young University - Idaho"> 
+    <link rel="icon" href="images/favicon (1).ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&family=Fira+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div class= "covid">
+      <h4> 🦠 COVID 19 UPDATES: <em>Click here </em> for latest announcements and resources. </h4>
+      
+    </div>
+  
+    
+    <header>
+        
+        <img src="images/logoCC.png" alt="SM Chamber of Commerce Logo"> 
+       
+    </header>
+    <nav>
+        <ul class= "navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="activenow"  href="index.html">Home</a></li>
+            <li><a href="sanmateo.html">San Mateo</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="joinus.html">Join Us</a></li>
+           
+        </ul>
+    </nav>
+    
+    <main>
+      <h1><strong> San Mateo Chamber of Commerce</strong></h1>
+      <div class="hero-image">
+        <picture>
+          <source media="(max-width: 360px)" srcset="images/SanMateoSmall.jpeg">
+          <source media="(max-width: 720px)" srcset="images/SanMateoMed.jpeg">
+          <img src="images/SanMateo1.jpeg" alt="San Mateo CA Landscape">
+        </picture>
+      
+      <div class="purpose">
+       
+        <p>"Our main PURPOSE here at San Mateo's Chamber of Commerce is to promote a radiant local economy through active leadership, advocacy and engagement of the entrepreneurs, businesses and community members we serve."
+
+            </p>
+            <a href="join.html">Join Us!</a>
+
+        
+        </div>
+    </div>
+    <div class="companies"> </div>
+    
+    <div class="newevents">
+        <div class="upcoming">
+        <img  class= "rtable" src="images/SMroudtable.jpeg" alt="San Mateo Round Table"><br> <br>
+    </div></div>
+   
+     <div class="overlay"> 
+        <h3 class="subject"> Weather Summary</h3>
+        <div class = "summary-box">
+           <div class= "content">
+            <p class="temprature">
+                <span id="current"></span>°</p>
+            <p class="weather"><span id="condition"></span></p>
+        </div>
+            <ul class="condition">
+            <li><p class="label">Feel like: 
+                <span id="chill"></span>&#8457;</p></li>
+            <li><p class="label">High: <span id="high"></span>°</p></li>
+            <li><p class="label">Humidity: <span id="humidity"></span>%</p></li>
+            <li><p class="label">Wind: <span id="wind"></span> m/s</p></li>
+        </ul>
+    </div> 
+</div> 
+    
+    <h2 class="subject">5 Day Forecast</h2> 
+    <div class="fivedays">
+        <div class="forecast">
+           <div class="dailyweather"></div>
+    </div> 
+    </div>
+  </div>
+    
+    </main>
+    
+    
+   
+    <footer>
+      <div class="fooInf">
+        <div class="Contact-Information">
+            <h2>Contact Information</h2>
+            <p>
+              &nbsp;&#128205;&nbsp; 1730 S Amphlett Blvd Ste 206, San Mateo, CA 94402 <br />
+              &#128222; (650)316-4678 <br />
+              &#128231; sanmateo@chamberofcommerce.com<br />
+             
+            </p>
+          </div>
+        <div class="Map">
+            <img src="images/SMCCMap.png" alt="Map"  />
+          </div>
+        
+
+          <div class="Social-Nav">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fbgold.png" alt="Facebook Logo" width="30" /></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/pgold.jpeg" alt="Pinterest Logo" width="32"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/ygold.jpeg" alt="Youtube Logo" width="41" /></a>
+          </div>
+
+        
+        </div>
+        <div class="My-Footer">
+            <strong>&copy; <span id="thisyear"></span></strong> | Gabriela (Maya) Castillo| San Francisco, CA| <a
+             href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <p class="visits"> You were here  <span id="day"></span>   days ago!</p>
+             
+             <div class="date subtitle"></div>
+    </div>
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+    google: {
+      families: [
+          'Encode Sans SC', 'Fila Sans Extra Condensed'
+      ]
+    }
+  });
+  </script>
+     
+     <script src="js/index.js"></script>
+     <script src="js/companies.js"></script>
+     <script src="js/weather.js"></script>
+
+  </body>
+
+</html>
