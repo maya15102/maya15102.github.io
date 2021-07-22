@@ -226,5 +226,71 @@ picture img {
     display: block;
 }
 
+/*--Join Us--*/
+    
+.storm{
+    margin: 0 auto;
+    max-width: 930px;
+    
+}
 
+/* Contact Us */
+
+.fooInf1 {
+    
+    text-align: center;
+    
+}
+
+/* directory */
+.directory section{ 
+    display: None;
+}
+
+.options {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.options a {
+    background-color: #ddbb4d;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1.7em 2em;
+    border-radius: 2em;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+  
+.options a:hover {
+    background-color: #393939;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
+}
+
+  
+.directoryl section img {
+   width: 50%;
+   
+}
+
+
+.directoryg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.directoryg section img {
+    width: 90%;
+    
+}
+
+.directoryg section  {
+ border: 2px solid #353746;
+
+}
 }

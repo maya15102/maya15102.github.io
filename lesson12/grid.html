@@ -30,26 +30,42 @@
     <nav>
         <ul class= "navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class="activenow"  href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="sanmateo.html">San Mateo</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a class="activenow"  href="directory.html">Directory</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
             <li><a href="joinus.html">Join Us</a></li>
            
         </ul>
     </nav>
     
-    <main class="storm2">
-        <div class="container form-2" >
-            <h1 >Thank you for Joining The San Mateo Chamber of Commerce!</h1>
-            <h3>You will receive an email shortly, with a link to continue the application process and payment.</h3>
-            </div>
+    <main>
+        <h1><strong> Local Business Organizations Directory</strong></h1>
+        <h2>Grid View</h2>
+        <div class="hero-image">
+          <picture>
+            <source media="(max-width: 360px)" srcset="images/MarriottSmall.jpeg">
+            <source media="(max-width: 720px)" srcset="images/MarriottMed.jpeg">
+            <img src="images/Marriott.jpeg" alt="San Mateo CA Landscape">
+          </picture>
+         
+          </div>
+      
+  
+      
+         
+          
+  
+          
+      <div class="directoryg"> </div>
+      
+      
     </main>
     
     
    
     <footer>
-      <div class=""fooInf1">
+      <div class="fooInf">
         <div class="Contact-Information">
             <h2>Contact Information</h2>
             <p>
@@ -59,7 +75,25 @@
              
             </p>
           </div>
+        <div class="Map">
+            <img src="images/SMCCMap.png" alt="Map"  />
+          </div>
         
+
+          <div class="Social-Nav">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fbgold.png" alt="Facebook Logo" width="30" /></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="images/pgold.jpeg" alt="Pinterest Logo" width="32"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/ygold.jpeg" alt="Youtube Logo" width="41" /></a>
+          </div>
+
+        
+        </div>
+        <div class="My-Footer">
+            <strong>&copy; <span id="thisyear"></span></strong> | Gabriela (Maya) Castillo| San Francisco, CA| <a
+             href="https://www.byui.edu/online">BYUI Online Learning</a>  |  <p class="visits"> You were here  <span id="day"></span>   days ago!</p>
+             
+             <div class="date subtitle"></div>
+    </div>
 
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -74,7 +108,7 @@
   </script>
      
      <script src="js/index.js"></script>
-     <script src="js/companies.js"></script>
+     <script src="js/directoryg.js"></script>
      <script src="js/weather.js"></script>
 
   </body>

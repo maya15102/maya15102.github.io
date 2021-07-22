@@ -1,0 +1,53 @@
+{
+    "comp": [
+      {
+        "name": "Rakuten",
+        "photo": "rakuten.jpg",
+        "motto": "Feel the Joy of Cash Back",
+        "website": "https://www.rakuten.com/"
+        
+      },
+      {
+        "name": "Hillsdale Mall",
+        "photo": "Hillsdale.jpg",
+        "motto": "Hart of the Peninsula",
+        "website": "https://www.hillsdale.com/"
+        
+      },
+      {
+        "name": "San Mateo Credit Union",
+        "photo": "CreditUnion.jpg",
+        "motto": "More than just Money",
+        "website": "https://www.smcu.org"
+       
+      },
+      {
+        "name": "Kaiser Permanente",
+        "photo": "Kaiser.jpg",
+        "motto": "Together we Thrive",
+        "website": "https://www.kp.org"
+       
+      },
+      {
+        "name": "Fast Signs",
+        "photo": "FastSigns.jpg",
+        "motto": "More than fast. More than signs",
+        "website": "https://www.fastsigns.org"
+       
+      },
+      {
+        "name": "Concar Enterprises",
+        "photo": "Concar.jpg",
+        "motto": "The Best of the San Francisco Bay Area",
+        "website": "https://www.smccvb.com"
+       
+      },
+      {
+        "name": "Padget Business Services",
+        "photo": "Padget.jpg",
+        "motto": "Focus More on your Business",
+        "website": "https://www.padgettbusinessservices.com/"
+       
+      }
+    ]
+  }
