@@ -1,0 +1,51 @@
+/*
+Author: Anastasia Yazvinskaya, Jatsiri Martinez, Gabriela Alvarez
+Class: WDD 331 - 09 (Fall 2021)
+Assignment: ZenGarden (W05)
+*/
+
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+.cd-navigation {
+    .cd-primary-nav {
+        background-color: lighten($color-2, 20%);
+        
+        ul {
+            margin: 3px;
+            li {
+                padding: 3px 0;
+                
+
+                a {
+                    color: $color-3;
+                    font-weight: bold;
+                    font-size: large;
+                }
+            }
+        }
+    }
+
+    .cd-secondary-nav {
+        background-color: lighten($color-5, 20%);
+        
+        ul {
+            margin: 3px;
+            li {
+                padding: 3px 0;
+                
+
+                a {
+                    color: $color-4;
+                    font-weight: bold;
+                    font-size: large;
+                }
+            }
+        }
+    }
+    ul li a {
+        color: darken($color-2, 15%);
+    }
+}

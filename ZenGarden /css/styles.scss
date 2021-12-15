@@ -1,0 +1,35 @@
+/*
+Author: Anastasia Yazvinskaya, Jatsiri Martinez, Gabriela Alvarez
+Class: WDD 331 - 09 (Fall 2021)
+Assignment: ZenGarden 
+*/
+
+$color-1: #dee2ed; // 
+$color-2: #a78fa9; // 
+$color-3: #644356; // 
+$color-4: #516559; // 
+$color-5: #9db18e; //
+$color-6: #ccc; // 
+
+$success: #6fce72; // green
+$alert: #f18686; // red
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans+Condensed:wght@300&display=swap');
+$primary-font: 'Open Sans Condensed', sans-serif;
+$secondary-font: 'Acme', sans-serif;
+
+h1,
+h2, h3 {
+  font-family: $secondary-font;
+  color: $color-3;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: $color-4;
+}
+a {
+    color: darken($color-2, 15%);
+    text-decoration: underline;
+}
